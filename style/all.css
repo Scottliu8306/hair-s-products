@@ -8,9 +8,12 @@
 /* reset */
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #fff;
-    
+    background-image: url(../image/backgroundimg.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+       
 }
+
 
 img{
     vertical-align: bottom;
@@ -36,7 +39,6 @@ img{
 .wrapper-item{
     margin: 2rem 3rem;
 }
-
 
 
 
@@ -154,45 +156,72 @@ img{
     opacity: 0.7 ;
 }
 
-/* banner------------------- */
+/* col多欄式萬用格線系統---------------------------------------------- */
 
-.banner{
-    position: relative;
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+
 }
 
-
-.banner-head h3{
-    /* font-family: 'Edu VIC WA NT Beginner', cursive; */
-    font-size: 2rem;
-    letter-spacing: .2rem;
-    margin: 1rem;
-    /* font-weight: 400; */
-}
-.banner-head h3{
-    /* font-family: 'Noto Sans TC', sans-serif; */
-    margin: .5rem;
-    font-size: 3rem;
-    letter-spacing: .3rem;
-    /* font-weight: 100; */
+.col-row{
+    margin-left: -1rem;
+    margin-right: -1rem;
 }
 
-/* .banner-head h3,
-.banner-head h2{
-    position: absolute;
-    top: 50%;
-    right: 10%;
-} */
+.col-item{
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+    /* background-color: pink; */
+    padding-left: 1rem ;
+    padding-right: 1rem;
+    box-sizing: border-box;
 
-.banner figure{
+}
+
+.col-item-1{
+    width: 8.3333333333333334%;
+}
+
+.col-item-2{
+    width: 16.6666666666666666666668%;
+}
+
+.col-item-3{
+    width: 25%;
+}
+
+.col-item-4{
+    width: 33.3333333333333333333333333333336%;
+}
+
+.col-item-5{
+    width: 41.666666666666666666666666666667%;
+}
+.col-item-6{
     width: 50%;
-    align-self: flex-end; 
-    overflow: hidden;
-    /* position: absolute;
-    right: 20rem;
-    bottom: 20rem; */
 }
-.banner-head figure img{
-    max-height: 95vh;
-    width: auto;
+.col-item-7{
+    width: 58.3333333333333336%;
 }
+.col-item-8{
+    width: 66.666666666666666666666667%;
+}
+.col-item-9{
+    width: 75%;
+}
+
+.col-item-10{
+    width: 83.3333333333333333333334%;
+}
+
+.col-item-11{
+    width: 91.66666666666666666666667%;
+}
+
+.col-item-12{
+    width: 100%;
+}
+
 
